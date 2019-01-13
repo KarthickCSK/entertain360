@@ -9,7 +9,7 @@ const tmdbMovieRoutes = require('./routes/tmdbmovie');
 const tmdbCommonRoutes = require('./routes/tmdb');
 const express = require('express');
 const port = process.env.PORT || process.env.SERVER_PORT;
-const whiteList = ['http://localhost:3000'];
+const whiteList = ['http://localhost:3000', 'https://polar-caverns-40390.herokuapp.com'];
 const corsOptions = {
   origin: function (origin, callback) {
     console.log(origin)
