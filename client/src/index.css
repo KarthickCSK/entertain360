@@ -1,0 +1,50 @@
+p, span {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya Sans SC';
+}
+.table{
+  table-layout:fixed;
+  border: none !important;
+  padding: 4px;
+}
+.table th, table td {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 8px 3px 2px !important;
+  font-size: 15px;
+}
+.table td:first-child {
+  font-weight: bold;
+  width: 165px;
+}
+.table td {
+  border-top: none;
+  border-bottom: 1px solid #dee2e6;
+  max-width: 165px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cust-dropdown {
+  padding: 0px 2px 0 2px;
+  border-radius: 0px;
+  border-color: black;
+  height: 38px !important;
+  font-size: 18px;
+}
+
+.table th {
+  border-right: 2px solid !important;
+  margin: 0 0px 2px 0px !important
+}
+
+.indi-hor-card {
+  padding: 12px;
+  height: 630px;
+  margin-top: 10px;
+  overflow: hidden;
+}

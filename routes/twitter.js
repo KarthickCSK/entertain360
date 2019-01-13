@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { getTrends } = require('../controllers/twitter');
+const { getTrends, getLocations } = require('../controllers/twitter.controller');
 
 // /twitter/trends/:woeID => get
 router.get('/trends/:woeID', (req, res) => {
@@ -9,4 +9,10 @@ router.get('/trends/:woeID', (req, res) => {
   })
 })
 
+// /twitter/locations => get
+router.get('/locations', (req, res) => {
+  getLocations((result) => {
+    res.send(result)
+  })
+})
 module.exports = router;

@@ -1,0 +1,19 @@
+.cust-list{
+  border-radius: 0px !important;
+  background-color: #f9f9f9;
+  padding: 3px 15px 3px 15px;
+}
+.trend-scroll {
+  max-height: 490px;
+  overflow-y: scroll;
+}
+.badge-custom {
+  color: #fff;
+  background-color: #e76229;
+}
+.trend-triple-dot {
+  max-width: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

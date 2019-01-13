@@ -1,0 +1,22 @@
+.location-container {
+  position: fixed;
+}
+.form-cust {
+  display: flex
+}
+.cust-input {
+  padding: 0px 2px 0 2px;
+  border-radius: 0px;
+  border-color: black;
+}
+
+.cust-btn {
+  border-radius: 0px;
+}
+.input-h28 {
+  height: 28px;
+}
+.btn-h28 {
+  height: 28px;
+  padding: 0px 8px 0px 8px;
+}

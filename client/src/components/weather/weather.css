@@ -1,0 +1,11 @@
+.climate-icon {
+  position: absolute;
+  right: 0px;
+}
+.weather-card-body{
+  padding: 3px 50px 10px 3px;
+}
+.weather-card {
+  border-radius: 0px;
+  background-color: #d3d3d31c
+}

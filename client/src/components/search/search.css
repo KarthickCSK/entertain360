@@ -1,0 +1,11 @@
+.search-box {
+  margin: 10px 0 10px 0;
+  padding: 16px;
+  background-color: #e9ecef;
+}
+.sticky {
+  position: fixed;
+  top: 66px;
+  width: 100%;
+  z-index: 100
+}
