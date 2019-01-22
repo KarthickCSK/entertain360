@@ -1,0 +1,25 @@
+.nav-a {
+  font-size: 17px;
+  color:black;
+  font-family: 'Alegreya Sans SC';
+  margin-right: 15px;
+}
+
+.nav-a:hover {
+  text-decoration: underline;
+  color: black;
+  font-family: 'Alegreya Sans SC';
+}
+
+.add-to {
+  position: absolute;
+  right: 7px;
+  top: 0px;
+  background-color: #e76229;
+  color: white;
+  width: 16px;
+  text-align: center;
+}
+.add-to:hover {
+  cursor: pointer;
+}
